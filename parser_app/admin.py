@@ -8,5 +8,6 @@ class ParserAdmin(admin.ModelAdmin):
     search_fields = ('mpanCore', 'serialNo', 'unique_serial')
     list_filter = ('ReadingDt',)
 
+
 admin.site.register(Parser, ParserAdmin)
 
